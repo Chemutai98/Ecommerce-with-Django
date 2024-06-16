@@ -13,10 +13,13 @@
         <li>
            <h2>{{ product.name }}</h2>
            <p>{{ product.description }}</p>
-           <p>Our price is: {{ product.price }}</p> 
+           <p>Our price is: Kshs.{{ product.price }}</p> 
            <img src="{{ product.image.url }}" alt="{{ product.name }}">
+           <p>Available: {{ product.available|yesno:"Yes,No" }}</p>
+
         </li>
         {% endfor %}
     </ul>
+
 </body>
 </html>
