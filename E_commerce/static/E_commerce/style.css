@@ -1,0 +1,11 @@
+body{
+    background: white url("./media/images/bg.jpg") no-repeat;
+    background-size: cover;
+
+}
+h1{
+    color: maroon;
+}
+a{
+    color:white;
+}
